@@ -7,12 +7,9 @@ function toggleMode(){
    if(html.classList.contains('light')){
     img.setAttribute("src", "./images/giro-cartoon.png") 
         img.setAttribute("alt", "cartoon do Giro desesperado") 
-
-
   } else {
     img.setAttribute("src", "./images/Mask group.png") 
         img.setAttribute("alt", "Foto do Gilson olhando pra frente") 
-
   }
 
 }
